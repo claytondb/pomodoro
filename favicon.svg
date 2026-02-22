@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="tomatoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B"/>
+      <stop offset="100%" style="stop-color:#ee5a5a"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2d8a2d"/>
+      <stop offset="100%" style="stop-color:#4ECDC4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Tomato body -->
+  <ellipse cx="32" cy="36" rx="26" ry="24" fill="url(#tomatoBg)"/>
+  
+  <!-- Highlight -->
+  <ellipse cx="22" cy="28" rx="8" ry="6" fill="white" opacity="0.25"/>
+  
+  <!-- Stem -->
+  <rect x="29" y="8" width="6" height="12" rx="2" fill="#2d8a2d"/>
+  
+  <!-- Leaf -->
+  <path d="M32 12 Q42 6 48 14 Q42 12 32 12" fill="url(#leaf)"/>
+  <path d="M32 12 Q22 6 16 14 Q22 12 32 12" fill="url(#leaf)"/>
+  
+  <!-- Timer face -->
+  <circle cx="32" cy="38" r="14" fill="none" stroke="white" stroke-width="2" opacity="0.9"/>
+  
+  <!-- Clock hands - showing 25 min (5 on clock) -->
+  <line x1="32" y1="38" x2="32" y2="28" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="32" y1="38" x2="40" y2="42" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Center dot -->
+  <circle cx="32" cy="38" r="2" fill="white"/>
+</svg>
